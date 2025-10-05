@@ -1,0 +1,17 @@
+{
+  "name": "scada-lambda-functions",
+  "version": "1.0.0",
+  "description": "AWS Lambda functions for SCADA monitoring system",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["aws", "lambda", "dynamodb", "scada"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.700.0",
+    "@aws-sdk/lib-dynamodb": "^3.700.0"
+  }
+}
